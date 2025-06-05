@@ -32,7 +32,6 @@ maven 'maven'
             steps {
                 // Start the JAR application
                 sh 'java -cp target/Mymavnapp-1.0-SNAPSHOT.jar com.example.App'
-'
             }
         }
 
